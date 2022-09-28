@@ -5,13 +5,6 @@ import {
     Param
 } from '@nestjs/common';
 
-import { Validator, Length } from 'class-validator'
-
-export class Color {
-    @Length(4)
-    color: string
-}
-
 import { Repository } from 'typeorm'
 
 export interface HttpResponse {
